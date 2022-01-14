@@ -1,0 +1,16 @@
+.AddNoteButton{
+    border-radius: 50px;
+    border: none;
+    height: 70px;
+    width: 70px;
+    font-size: 35px;
+    color: #fefefe;
+    background-color: #409ECE;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.164);
+    position: fixed;
+    bottom: 0;
+    right: 0; 
+    z-index: 2;
+    margin-bottom: 92px;
+    margin-right: 24px;
+}

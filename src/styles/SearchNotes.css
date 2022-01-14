@@ -1,0 +1,33 @@
+.Search-Notes{
+    border-radius: 50px;
+    border: 0;
+    height: calc(100% - 5px);
+    width: calc(100% - 41px);
+    padding-left: 41px;
+    padding-top: 5px;
+    outline: none;    
+}
+.Search-Notes::placeholder{
+    font-weight: 600;
+    font-size: 14px;
+}
+.input-container{
+    position: relative;
+    width: 267px; 
+    height: 41px;  
+    margin-right: 40px;
+}
+.Search_icon{
+    height: 19px;
+    width: 19px;
+}
+.Search_icon--container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 46px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}

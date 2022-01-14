@@ -1,0 +1,15 @@
+.NoteTextArea{
+    display: block;
+    top: 0;
+    
+    outline: none;
+    margin-top: 29px;
+    width: calc(100% - 40px);
+    background-color: #fefefe;
+    border-radius: 10px;
+    border: 1px solid #ECECEC;
+    padding: 20px;
+    color: #7D7D7D;
+    font-size: 14px;
+    overflow: none;
+}

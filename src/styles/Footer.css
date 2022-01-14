@@ -1,0 +1,47 @@
+:root{
+    --footer-padding-mobile: 40px; 
+}
+
+.Footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #6372FF;
+    width: 100%;
+    height: 78px;
+    padding: 0 var(--footer-padding-mobile);    
+    display: flex;
+}
+
+.home_icon{
+    width: 27px;
+    height: 21px;
+}
+
+.footer_navigation_link{
+    width: calc(50%  - var(--footer-padding-mobile));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.footer_btn_text{
+    color: #fefefe;
+    text-decoration: none;
+    margin-top: 7px;
+}
+
+.button_animation{
+    animation-name: button_animation;
+    animation-duration: .7s;
+    animation-fill-mode: both;
+}
+
+@keyframes button_animation{
+    0%{
+        bottom: -200px;
+    }
+    100%{
+        bottom: 0;
+    }
+}
