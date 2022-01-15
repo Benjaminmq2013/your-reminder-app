@@ -2,8 +2,15 @@ import React from "react"
 import "../styles/AddNoteButton.css"
 
 const AddNoteButton = () =>{
+    let btnAnim = ``
+    function addAnim(){
+        btnAnim = `addNote-btn-anim`
+        console.log(btnAnim)
+    }
     return(
-        <button className="AddNoteButton button_animation">+</button>
+        <button 
+        onClick={addAnim}
+        className={`AddNoteButton button_animation ${ btnAnim }`}>+</button>
     )
 }
 

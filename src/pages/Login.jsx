@@ -1,11 +1,10 @@
 import React from "react"
-import { Link } from "react-router-dom"
+import LoginWrapper from "../containers/LoginWrapper"
 
 const Login = () => {
   return (
     <>
-      <h1>Login Screen</h1>
-      <Link to="/">See Notes</Link>
+      <LoginWrapper />
     </>
   );
 };

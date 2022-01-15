@@ -14,3 +14,19 @@
     margin-bottom: 92px;
     margin-right: 24px;
 }
+.addNote-btn-anim{
+    animation-name: addNote-btn-anim;
+    animation-duration: .8s;    
+}
+
+@keyframes addNote-btn-anim{
+    0%{
+        background-color: #409ECE;
+    }
+    50%{
+        background-color: #3587b1;
+    }
+    100%{
+        background-color: #409ECE;
+    }
+}

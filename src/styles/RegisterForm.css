@@ -1,0 +1,29 @@
+.RegisterForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.RegisterForm input{
+    border-radius: 8px;
+    border: 1px solid #6744BB;
+    margin-bottom: 26px;
+    height: 36px;
+    width: 323px;
+    padding-left: 15px;
+}
+
+.RegisterForm input::placeholder{
+    color: #BCBCBC;
+    
+}
+.submitButton{
+    background-color: #4B9FF3;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 183px;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
