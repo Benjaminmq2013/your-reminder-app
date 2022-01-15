@@ -1,7 +1,7 @@
-exports.success = function (req, res, status){
+exports.success = function (req, res, messageList, status){
     res.status(status || 200).send({
         error: "",
-        body:"Aqui te van tus notas"
+        body:messageList
     })
 }
 
