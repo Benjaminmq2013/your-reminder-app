@@ -7,7 +7,7 @@
     bottom: 0;
     background-color: #6372FF;
     width: 100%;
-    height: 78px;
+    height: 73px;
     padding: 0 var(--footer-padding-mobile);    
     display: flex;
 }

@@ -5,11 +5,12 @@
     
 }
 .LoginContainer{
-    height: 586px;
-    width: 382px;
+    height: 62.7vh;
+    width: 91%;    
+    max-width: 382px;
     background-color: #fefefe;
     border-radius: 20px;
-    margin-top: 68px;
+    margin-top: 7.4vh;
     
     display: flex;
     flex-direction: column;
