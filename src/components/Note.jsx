@@ -3,8 +3,8 @@ import "../styles/Note.css"
 
 const Note = () =>{
     return(
-        <p>
-            <span className="NoteTextArea" role="textbox" contentEditable></span>
+        <p className="NoteTextArea-container">
+            <span className="NoteTextArea noteColor-red" role="textbox" contentEditable></span>
         </p>
 
     )

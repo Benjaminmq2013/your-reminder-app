@@ -1,0 +1,14 @@
+.StartNowButton{
+    background-color: #4A83F5;
+    color: #fefefe;
+    text-decoration: none;
+    height: 47px;
+    width: 184px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 21px;
+}

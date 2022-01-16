@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from "../containers/Layout"
 import Login from "../pages/Login";
 import Home from "../pages/Home"
+import Landing from "../pages/Landing"
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
 
       <Layout>
         <Routes>
-          <Route exact path="/" element={<Home/>}/>
+          <Route exact path="/" element={<Landing/>}/>
+          <Route exact path="/Notes" element={<Home/>}/>
           <Route exact path="/Login" element={<Login/>}/>
         </Routes>
 

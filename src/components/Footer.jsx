@@ -7,7 +7,7 @@ import login_icon from "../assets/icons/login-icon.svg"
 const Footer = () => {
   return (
     <footer className="Footer">
-      <Link className="footer_navigation_link" to="/">
+      <Link className="footer_navigation_link" to="/notes">
         <img className="home_icon" src={home_icon} alt="" />
         <span className="footer_btn_text">Inicio</span>
       </Link>

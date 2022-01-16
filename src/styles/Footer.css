@@ -10,6 +10,7 @@
     height: 73px;
     padding: 0 var(--footer-padding-mobile);    
     display: flex;
+    z-index: 2;
 }
 
 .home_icon{
