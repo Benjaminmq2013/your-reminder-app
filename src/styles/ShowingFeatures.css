@@ -1,5 +1,21 @@
 .ShowingFeatures-Wrapper{
-    
     position: absolute;
     top: 0;
+    z-index: 2;
+    padding-top: 122px;
+    padding-left: 53px;
 }
+
+
+.feature{
+    display: flex;
+    align-items: center;
+    margin-bottom: 33px;
+}
+.feature_title{
+    padding-left: 17px;
+    color: #61504E;
+    font-size: 19px;
+    margin: 0;
+}
+    

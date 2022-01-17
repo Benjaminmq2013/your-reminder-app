@@ -6,13 +6,8 @@ const LandingFeatures = () => {
     return(
         <div className="LandingFeatures">
             
-            
-
-            
             <div className="featuresBackground"></div>
             <ShowingFeatures />
-
-            
 
         </div>
     );
