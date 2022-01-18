@@ -32,3 +32,17 @@
     color: #398ED9;
     font-size: 14px;
 }
+
+
+@media (max-width: 370px){
+    .LoginContainer{
+        margin-top: 3.4vh;
+        height: 73.7vh;
+    }
+    .register_icon{
+        margin-bottom: 25px;
+    }
+    .login_title{
+        margin-bottom: 23px;
+    }
+}

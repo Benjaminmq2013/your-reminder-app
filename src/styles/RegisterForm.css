@@ -28,3 +28,12 @@
     font-size: 18px;
     margin-bottom: 30px;
 }
+
+@media (max-width: 370px){
+    .submitButton{
+        font-size: 16px;
+        height: 37px;
+        width: 177px;
+        margin-bottom: 16px;
+    }
+}
