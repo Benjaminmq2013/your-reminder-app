@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import "../styles/LoginWrapper.css"
 import register_icon from "../assets/icons/register-icon.svg"
 import RegisterForm from "../components/RegisterForm"
@@ -14,7 +15,7 @@ const LoginWrapper = () => {
             className="register_icon"
         />        
         <RegisterForm />
-        
+        <Link className="login-link" to="/register">¿Ya tienes cuenta?</Link>
       </div>
     </div>
   );

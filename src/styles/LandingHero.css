@@ -27,3 +27,9 @@
     margin-bottom: 43px;
     text-align: center;
 }
+
+@media (max-width: 390px) {
+    .LandingHero{
+        padding-top: 6.6vh;
+    }
+}

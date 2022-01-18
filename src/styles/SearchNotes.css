@@ -14,8 +14,8 @@
 .input-container{
     position: relative;
     width: 267px; 
-    height: 41px;  
-    margin-right: 40px;
+    height: 41px;
+    margin-right: 8.6%;
 }
 .Search_icon{
     height: 19px;
@@ -25,9 +25,21 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 46px;
+    height: inherit;
     width: 50px;
     display: flex;
     align-items: center;
     justify-content: center;    
+}
+
+
+@media (max-width: 390px) {
+    .input-container{
+        height: 35px;
+        width: auto;
+        margin-right: 7.6%
+    }
+    .Search-Notes{
+        width: 80%;
+    }
 }

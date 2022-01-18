@@ -9,15 +9,15 @@ const ShowingFeatures = () => {
         <div className="ShowingFeatures-Wrapper">
             <div className="feature">
                 <img src={check_mark} alt="" />
-                <h3 class="feature_title">Marca las tareas completadas</h3>
+                <h3 className="feature_title">Marca las tareas completadas</h3>
             </div>
             <div className="feature">
                 <img src={take_note} alt="" />
-                <h3 class="feature_title">Toma nota de tus objetivos</h3>
+                <h3 className="feature_title">Toma nota de tus objetivos</h3>
             </div>
             <div className="feature">
                 <img src={colors_icon} alt="" />
-                <h3 class="feature_title">Añade un toque personal</h3>
+                <h3 className="feature_title">Añade un toque personal</h3>
             </div>
         </div>
 

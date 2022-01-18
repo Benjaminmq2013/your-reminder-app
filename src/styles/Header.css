@@ -7,3 +7,9 @@
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 390px) {
+    .Navbar{
+        height: 77px;
+    }
+}

@@ -11,7 +11,7 @@ const Footer = () => {
         <img className="home_icon" src={home_icon} alt="" />
         <span className="footer_btn_text">Inicio</span>
       </Link>
-      <Link className="footer_navigation_link" to="/login">
+      <Link className="footer_navigation_link" to="/Register">
         <img className="login_icon" src={login_icon} alt="" />
         <span className="footer_btn_text">Iniciar Sesion</span>
       </Link>

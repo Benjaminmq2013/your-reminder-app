@@ -3,7 +3,7 @@
     top: 0;
     z-index: 2;
     padding-top: 122px;
-    padding-left: 53px;
+    padding-left: 12.5%;
 }
 
 
@@ -19,3 +19,18 @@
     margin: 0;
 }
     
+
+@media (max-width: 390px){
+    .ShowingFeatures-Wrapper{
+        padding-left: 10.5%;
+    }
+}
+
+@media (max-width: 370px){
+    .ShowingFeatures-Wrapper{
+        padding-left: 8.5%;
+    }
+    .feature_title{
+        font-size: 17px;
+    }
+}
